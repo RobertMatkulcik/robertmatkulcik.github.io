@@ -99,6 +99,11 @@ src: url(../fonts/monofur/monof56.ttf);
     font-family: "Liberation Sans Regular";
     src: url(../fonts/LiberationSans-Regular.ttf);
 }
+
+@font-face {
+    font-family: "MERRIWEATHER";
+    src: url(../fonts/merriweather/Merriweather-Regular.ttf);
+}
 body{
 font-family: "monof55", sans-serif;
 font-size: 2em;
@@ -111,7 +116,7 @@ background: #101010;
 
 
 h1{
-    font-family: Liberation Sans Regular, sans-serif;
+    font-family: MERRIWEATHER, sans-serif;
     letter-spacing: 0.02em;
     color: #fc4d3c;
 }

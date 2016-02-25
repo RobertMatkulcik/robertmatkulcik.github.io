@@ -3,10 +3,14 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
 
 html {
     color: #fff;
@@ -88,13 +92,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 @font-face {
-font-family: monof55;
-src: url(../fonts/monofur/monof55.ttf);
+    font-family: monof55;
+    src: url(../fonts/monofur/monof55.ttf);
 }
+
 @font-face {
-font-family: monof56;
-src: url(../fonts/monofur/monof56.ttf);
+    font-family: monof56;
+    src: url(../fonts/monofur/monof56.ttf);
 }
+
 @font-face {
     font-family: "Liberation Sans Regular";
     src: url(../fonts/LiberationSans-Regular.ttf);
@@ -104,44 +110,59 @@ src: url(../fonts/monofur/monof56.ttf);
     font-family: "MERRIWEATHER";
     src: url(../fonts/merriweather/Merriweather-Regular.ttf);
 }
-body{
-font-family: "monof55", sans-serif;
-font-size: 2em;
-text-align: center;
-background: #101010;
+
+body {
+    font-family: "monof55", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background: #101010;
+    height: 100%;
+    padding: 2em;
 }
+
+main {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
 /*
 	Source Code Pro, 200, 200 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 600, 600 italic, 700, 700 italic, 900, 900 italic
 */
 
-
-h1{
+h1 {
     font-family: MERRIWEATHER, sans-serif;
+    font-size: 2em;
     letter-spacing: 0.02em;
     color: #fc4d3c;
 }
-a, a:visited {
-color:#FF686B;
+
+h2 {
+    font-size: 1.7em;
+    margin: 1em 0;
 }
-span{
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a, a:visited {
+    color: #FF686B;
+}
+
+span {
     color: #fff;
 }
-a:hover, a:active{
-color:#FFA69E;
+
+a:hover, a:active {
+    color: #FFA69E;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+li {
+    display: inline-block;
+    margin: 0 1.4em 1em 0.5em;
+}
 
 /* ==========================================================================
    Helper classes
@@ -228,8 +249,8 @@ color:#FFA69E;
 }
 
 @media print,
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -244,8 +265,9 @@ color:#FFA69E;
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -267,7 +289,6 @@ color:#FFA69E;
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -283,7 +304,6 @@ color:#FFA69E;
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }

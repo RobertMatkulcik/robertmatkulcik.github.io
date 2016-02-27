@@ -64,7 +64,7 @@
   [data-hint]:after {
     content: attr(data-hint);
     background: #383838;
-    color: white;
+    color: #fff;
     padding: 8px 10px;
     font-size: 12px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

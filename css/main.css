@@ -164,9 +164,9 @@ li {
     margin: 0 1.4em 1em 0.5em;
 }
 
-i{
-    color: #fff;
-
+li:hover {
+    -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 /* ==========================================================================
@@ -253,6 +253,14 @@ i{
     /* Style adjustments for viewports that meet the condition */
 }
 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (max-width : 500px) {
+    /* Styles */
+    body{
+        font-size: 1em;
+    }
+}
 @media print,
 (min-resolution: 1.25dppx),
 (min-resolution: 120dpi) {

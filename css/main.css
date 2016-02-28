@@ -118,12 +118,15 @@ body {
     background: #101010;
     height: 100%;
     padding: 2em;
+    color: #fff;
+
 }
 
 main {
     margin: 0 auto;
     position: relative;
     top: 50%;
+    /*TODO: main line-height: 0.4 ?*/
 }
 
 /*
@@ -151,10 +154,6 @@ a, a:visited {
     color: #FF686B;
 }
 
-span {
-    color: #fff;
-}
-
 a:hover, a:active {
     color: #FFA69E;
 }
@@ -168,6 +167,13 @@ li:hover {
     -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
     transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes

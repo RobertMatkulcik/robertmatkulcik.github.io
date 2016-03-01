@@ -355,13 +355,20 @@ and (max-width: 500px) {
 
 @media screen and (max-width: 440px) {
     body {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
+    li{
+        margin: 0 2.18em 1em 0;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
     body {
         font-size: 0.7em;
+    }
+    li{
+        margin: 0 2.18em 1em 0em;
     }
 }
 

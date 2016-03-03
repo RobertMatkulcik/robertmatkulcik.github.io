@@ -163,7 +163,7 @@ li a:hover, li a:active {
 li {
     display: inline-block;
     /*margin: 0 1.4em 1em 0.5em;*/
-    margin: 0 1.2em 1em 0em;
+    margin: 0 1.5em 1em 0.3em;
 }
 
 li:hover {

@@ -6,12 +6,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-/* entypo */
-[class*="entypo-"]:before {
-    font-family: 'entypo', sans-serif;
-}
-
 html {
     color: #fff;
     font-size: 1em;
@@ -365,9 +359,9 @@ and (max-width: 500px) {
         font-size: 1.3em;
     }
 
-    li {
-        margin: 0 1.75em 1em 0.25em;
-    }
+    /*li {*/
+        /*margin: 0 1.75em 1em 0.25em;*/
+    /*}*/
 }
 
 @media screen and (max-width: 650px) {
@@ -376,9 +370,9 @@ and (max-width: 500px) {
         /*0 1.7em 1em 0.3em*/
     }
 
-    li {
-        margin: 0 2em 1em 0;
-    }
+    /*li {*/
+        /*margin: 0 2em 1em 0;*/
+    /*}*/
 }
 
 @media screen and (max-width: 550px) {
@@ -386,9 +380,9 @@ and (max-width: 500px) {
         font-size: 1.0em;
     }
 
-    li {
-        margin: 0 2em 1em 0;
-    }
+    /*li {*/
+        /*margin: 0 2em 1em 0;*/
+    /*}*/
 }
 
 @media screen and (max-width: 440px) {
@@ -396,9 +390,9 @@ and (max-width: 500px) {
         font-size: 0.8em;
     }
 
-    li {
-        margin: 0 2.18em 1em 0;
-    }
+    /*li {*/
+        /*margin: 0 2.18em 1em 0;*/
+    /*}*/
 
 }
 
@@ -407,9 +401,9 @@ and (max-width: 500px) {
         font-size: 0.7em;
     }
 
-    li {
-        margin: 0 2.18em 1em 0em;
-    }
+    /*li {*/
+        /*margin: 0 2.18em 1em 0;*/
+    /*}*/
 }
 
 @media print,

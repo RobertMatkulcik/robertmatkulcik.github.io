@@ -337,52 +337,43 @@ div.loading-container {
     /* Style adjustments for viewports that meet the condition */
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (max-width: 500px) {
-    /* Styles */
-    body {
-        font-size: 1em;
-    }
-
-}
-
 @media screen and (max-width: 885px) {
     body {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
 }
 
 @media screen and (max-width: 745px) {
     body {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
-    /*li {*/
-        /*margin: 0 1.75em 1em 0.25em;*/
-    /*}*/
+    li {
+        margin: 0 1.5em 1em 0.4em;
+
+    }
 }
 
 @media screen and (max-width: 650px) {
     body {
-        font-size: 1.1em;
+        font-size: 1.3em;
         /*0 1.7em 1em 0.3em*/
     }
 
-    /*li {*/
-        /*margin: 0 2em 1em 0;*/
-    /*}*/
+    li {
+    margin: 0 1.9em 1em 0;
+    }
 }
 
-@media screen and (max-width: 550px) {
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (max-width: 520px) {
+    /* Styles */
     body {
-        font-size: 1.0em;
+        font-size: 1em;
     }
 
-    /*li {*/
-        /*margin: 0 2em 1em 0;*/
-    /*}*/
 }
 
 @media screen and (max-width: 440px) {
@@ -391,7 +382,7 @@ and (max-width: 500px) {
     }
 
     /*li {*/
-        /*margin: 0 2.18em 1em 0;*/
+    /*margin: 0 2.18em 1em 0;*/
     /*}*/
 
 }
@@ -402,7 +393,7 @@ and (max-width: 500px) {
     }
 
     /*li {*/
-        /*margin: 0 2.18em 1em 0;*/
+    /*margin: 0 2.18em 1em 0;*/
     /*}*/
 }
 

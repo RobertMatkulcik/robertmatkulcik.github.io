@@ -361,7 +361,7 @@ div.loading-container {
     }
 
     li {
-    margin: 0 1.88em 1em 0;
+        margin: 0 1.88em 1em 0;
     }
 }
 
@@ -379,12 +379,13 @@ and (max-width: 520px) {
     body {
         font-size: 0.8em;
     }
-    ul{
+
+    ul {
         padding-left: 2em;
     }
 
     li {
-    margin: 0 1.9em 1em 0;
+        margin: 0 1.9em 1em 0;
     }
 
 }
@@ -393,11 +394,13 @@ and (max-width: 520px) {
     body {
         font-size: 0.7em;
     }
-    ul{
+
+    ul {
         padding-left: 2em;
     }
+
     li {
-    margin: 0 1.8em 1em 0;
+        margin: 0 1.8em 1em 0;
     }
 }
 

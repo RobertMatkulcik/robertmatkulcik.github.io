@@ -350,7 +350,7 @@ div.loading-container {
     }
 
     li {
-        margin: 0 1.5em 1em 0.4em;
+        margin: 0 1.5em 1em 0.3em;
 
     }
 }
@@ -358,11 +358,10 @@ div.loading-container {
 @media screen and (max-width: 650px) {
     body {
         font-size: 1.3em;
-        /*0 1.7em 1em 0.3em*/
     }
 
     li {
-    margin: 0 1.9em 1em 0;
+    margin: 0 1.88em 1em 0;
     }
 }
 
@@ -380,10 +379,13 @@ and (max-width: 520px) {
     body {
         font-size: 0.8em;
     }
+    ul{
+        padding-left: 2em;
+    }
 
-    /*li {*/
-    /*margin: 0 2.18em 1em 0;*/
-    /*}*/
+    li {
+    margin: 0 1.9em 1em 0;
+    }
 
 }
 
@@ -391,10 +393,12 @@ and (max-width: 520px) {
     body {
         font-size: 0.7em;
     }
-
-    /*li {*/
-    /*margin: 0 2.18em 1em 0;*/
-    /*}*/
+    ul{
+        padding-left: 2em;
+    }
+    li {
+    margin: 0 1.8em 1em 0;
+    }
 }
 
 @media print,

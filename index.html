@@ -97,6 +97,17 @@
 
 </script>
 
+<script>
+    $('li a').on('click', function (event) {
+        //nechcem ist na postranku
+        event.preventDefault();
+        //vytiahneme adresu linku
+        var href = $(this).attr('href');
+        //do elementu main nacitame obsah z tohoto linku
+        $('main').load('404.html');
+    });
+</script>
+
 
 </body>
 </html>

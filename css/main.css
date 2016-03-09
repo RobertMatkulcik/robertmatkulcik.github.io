@@ -161,11 +161,6 @@ li {
     margin: 0 1.5em 1em 0.3em;
 }
 
-li a:active {
-    -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
-}
-
 .uppercase {
     text-transform: uppercase;
 }

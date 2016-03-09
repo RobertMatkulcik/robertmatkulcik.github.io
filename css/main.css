@@ -110,6 +110,8 @@ body {
     font-size: 2em;
     text-align: center;
     background: #101010;
+    background-image: url("../img/Bg/zwartevilt.png");
+    background-repeat: repeat;
     height: 100%;
     /*padding: 5em;*/
     color: #fff;

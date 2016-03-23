@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/bpopup.js"></script>
     <script>
         $(document).ready(function () {
             setTimeout(function () {
@@ -26,6 +27,7 @@
             }, 1000);
         });
     </script>
+
     <noscript>
         <style>
             .loading-container {
@@ -36,8 +38,8 @@
 </head>
 <body>
 <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
-        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+    <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
 <!-- Add your site or application content here -->
@@ -75,6 +77,9 @@
         </li>
         <li class="hint--bottom" data-hint="E-mail">
             <a href="mailto:robert@matkulcik.eu" class="email" target="_blank"></a>
+            <div id="element_to_pop_up">
+                <h2>robert@matkulcik.eu</h2>
+            </div>
         </li>
     </ul>
 </main>
@@ -98,14 +103,39 @@
 </script>
 
 <script>
-    $('li a').on('click', function (event) {
-        //nechcem ist na postranku
-        event.preventDefault();
-        //vytiahneme adresu linku
-        var href = $(this).attr('href');
-        //do elementu main nacitame obsah z tohoto linku
-        $('main').load('404.html');
-    });
+    //    $('.email').on('click', function (event) {
+    //        //nechcem ist na postranku
+    //        event.preventDefault();
+    //        //vytiahneme adresu linku
+    //        var href = $(this).attr('href');
+    //        //do elementu main nacitame obsah z tohoto linku
+    //        $('main').load('contact.html');
+    //    });
+
+    (function ($) {
+
+        // DOM Ready
+        $(function () {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.email').on('click', function (e) {
+
+                // Prevents the default action to be triggered.
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('#element_to_pop_up').bPopup({
+                    fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
+                    followSpeed: 1500 //can be a string ('slow'/'fast') or int
+                });
+
+            });
+
+        });
+
+    })(jQuery);
+
 </script>
 
 

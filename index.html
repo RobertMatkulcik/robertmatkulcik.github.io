@@ -126,8 +126,9 @@
 
                 // Triggering bPopup when click event is fired
                 $('#element_to_pop_up').bPopup({
-                    fadeSpeed: 'slow', //can be a string ('slow'/'fast') or int
-                    followSpeed: 1500 //can be a string ('slow'/'fast') or int
+                    speed: 650,
+                    transition: 'slideBack',
+                    transitionClose: 'slideDown'
                 });
 
             });

@@ -207,9 +207,10 @@ li {
     background-image: url("../img/entypo/Entypo+/Entypo+/mail.svg");
 }
 
-#element_to_pop_up{
+#element_to_pop_up {
     display: none;
 }
+
 /* ==========================================================================
    LOADING
    ========================================================================== */
@@ -223,33 +224,9 @@ div.loading-container {
     background-color: #101010;
 }
 
-.loading {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 25%;
-    top: 35%;
-    padding: 0;
-    position: relative;
-}
-
-.loading svg {
-    width: 100%;
-    height: 100%;
-}
-
-.loading #pulsar {
-    stroke-dasharray: 281;
-    -webkit-animation: dash 2.5s infinite linear forwards;
-}
-
-/*Animation*/
-@-webkit-keyframes dash {
-    from {
-        stroke-dashoffset: 814;
-    }
-    to {
-        stroke-dashoffset: -814;
-    }
+.wrapper {
+    text-align: center;
+    margin-top: 20%;
 }
 
 /* ==========================================================================

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/bpopup.js"></script>
     <script>
         $(document).ready(function () {
             setTimeout(function () {
@@ -26,6 +27,7 @@
             }, 1000);
         });
     </script>
+
     <noscript>
         <style>
             .loading-container {
@@ -36,22 +38,20 @@
 </head>
 <body>
 <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
-        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+    <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
 <!-- Add your site or application content here -->
 <main>
-    <!--THX: Puls Loading A PEN BY GoApp; i will make something own, just example.-->
-    <!--<div class="loading-container">-->
-    <!--<div class="loading">-->
-    <!--<svg version="1.2" xmlns="http://www.w3.org/2000/svg"-->
-    <!--viewport="0 0 60 60" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">-->
-    <!--<path id="pulsar" stroke="rgba(252,77,60,1)" fill="none" stroke-width="3" stroke-linejoin="round"-->
-    <!--d="M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210"/>-->
-    <!--</svg>-->
-    <!--</div>-->
-    <!--</div>-->
+
+    <!-- svg loader -->
+    <div class="loading-container">
+        <div class="wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="25" viewBox="0 0 120 30" fill="#fff"><circle cx="15" cy="15" r="11.8022"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite"/><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="60" cy="15" r="12.1978" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite"/><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="105" cy="15" r="11.8022"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite"/><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite"/></circle></svg>
+        </div>
+    </div>
+
 
     <h1>Róbert <span class="uppercase">Matkulčík</span></h1>
 
@@ -75,6 +75,10 @@
         </li>
         <li class="hint--bottom" data-hint="E-mail">
             <a href="mailto:robert@matkulcik.eu" class="email" target="_blank"></a>
+
+            <div id="element_to_pop_up">
+                <h2>robert@matkulcik.eu</h2>
+            </div>
         </li>
     </ul>
 </main>
@@ -94,6 +98,43 @@
 
     ga('create', 'UA-72336728-1', 'auto');
     ga('send', 'pageview');
+
+</script>
+
+<script>
+    //    $('.email').on('click', function (event) {
+    //        //nechcem ist na postranku
+    //        event.preventDefault();
+    //        //vytiahneme adresu linku
+    //        var href = $(this).attr('href');
+    //        //do elementu main nacitame obsah z tohoto linku
+    //        $('main').load('contact.html');
+    //    });
+
+    (function ($) {
+
+        // DOM Ready
+        $(function () {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.email').on('click', function (e) {
+
+                // Prevents the default action to be triggered.
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('#element_to_pop_up').bPopup({
+                    speed: 650,
+                    transition: 'slideBack',
+                    transitionClose: 'slideDown'
+                });
+
+            });
+
+        });
+
+    })(jQuery);
 
 </script>
 

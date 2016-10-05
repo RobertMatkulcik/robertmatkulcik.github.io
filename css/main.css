@@ -120,7 +120,7 @@ body {
 
 main {
     margin: 0 auto;
-    position: fixed;
+    /*position: fixed;*/
     /*top: 50%;*/
     width: 100%;
     height: 100%;
@@ -461,4 +461,14 @@ and (max-width: 520px) {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* ==========================================================================
+Technologie
+   ========================================================================== */
+
+.technology em {
+    color: #fc4d3c;
+    font-style: normal;
+    font-weight: 700;
 }

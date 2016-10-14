@@ -467,13 +467,16 @@ and (max-width: 520px) {
 Technologie
    ========================================================================== */
 .technology{
-    padding: 0 15%;
+    padding: 0 11%;
+    text-align: justify;
+}
+.technology h2{
+    text-align: center;
 }
 
 .technology em {
     color: #fc4d3c;
     font-style: normal;
     font-weight: 700;
-    /*text-align: center;*/
 
 }

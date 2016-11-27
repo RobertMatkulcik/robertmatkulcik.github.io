@@ -112,16 +112,14 @@ body {
     background: #101010;
     background-image: url("../img/Bg/zwartevilt.png");
     background-repeat: repeat;
-    height: 100%;
+    /*height: 100%;*/
     /*padding: 5em;*/
     color: #fff;
-
 }
 
 main {
     margin: 0 auto;
-    /*position: fixed;*/
-    /*top: 50%;*/
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 25%;
@@ -136,6 +134,7 @@ h1 {
     letter-spacing: 0.02em;
     color: #fc4d3c;
 }
+
 
 h2 {
     font-size: 1.7em;
@@ -466,17 +465,50 @@ and (max-width: 520px) {
 /* ==========================================================================
 Technologie
    ========================================================================== */
-.technology{
-    padding: 0 11%;
-    text-align: justify;
-}
-.technology h2{
-    text-align: center;
+/*.technology{*/
+    /*padding: 0 11%;*/
+    /*text-align: justify;*/
+/*}*/
+/*.technology h2{*/
+    /*text-align: center;*/
+/*}*/
+
+/*.technology em {*/
+    /*color: #fc4d3c;*/
+    /*font-style: normal;*/
+    /*font-weight: 700;*/
+
+/*}*/
+
+/* ==========================================================================
+GITHUB corner
+   ========================================================================== */
+
+.github-icon {
+    fill: #fc4d3c;
+    color: #222127;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
 }
 
-.technology em {
-    color: #fc4d3c;
-    font-style: normal;
-    font-weight: 700;
+.github-corner:hover .octo-arm {
+    transform-origin: 130px 106px;
+    animation: octocat-wave 560ms ease-in-out;
+}
 
+@keyframes octocat-wave {
+    0%, 100% { transform: rotate(0); }
+    20%, 60% { transform: rotate(-25deg); }
+    40%, 80% { transform: rotate(10deg); }
+}
+
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation: none;
+    }
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+    }
 }

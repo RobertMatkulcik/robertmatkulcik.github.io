@@ -147,13 +147,13 @@ li a {
     font-size: 1.5em;
 }
 
-li a, li a:visited {
-    color: #FF686B;
-}
-
-li a:hover, li a:active {
-    color: #FFA69E;
-}
+/*SVG as background - for performance and stuff..*/
+/*li a, li a:visited {*/
+    /*color: #FF686B;*/
+/*}*/
+/*li a:hover, li a:active {*/
+    /*color: #FFA69E;*/
+/*}*/
 
 li {
     display: inline-block;

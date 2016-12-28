@@ -21,39 +21,6 @@
     <script src="js/bpopup.js"></script>
     <script src="js/jquery.spapp.js"></script>
 
-    <script>
-        $(document).ready(function () {
-            setTimeout(function () {
-                $('.loading-container').fadeOut(function () {
-                    this.hide();
-                });
-            }, 1000);
-        });
-    </script>
-
-    <script type="text/javascript">
-        window.smartlook || (function (d) {
-            var o = smartlook = function () {
-                o.api.push(arguments)
-            }, h = d.getElementsByTagName('head')[0];
-            var c = d.createElement('script');
-            o.api = new Array();
-            c.async = true;
-            c.type = 'text/javascript';
-            c.charset = 'utf-8';
-            c.src = '//rec.getsmartlook.com/recorder.js';
-            h.appendChild(c);
-        })(document);
-        smartlook('init', 'b6eed991d56330f2e68b3c18635af5e8d1bf8174');
-    </script>
-
-    <noscript>
-        <style>
-            .loading-container {
-                display: none;
-            }
-        </style>
-    </noscript>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -75,84 +42,62 @@
 
 
 <main>
-    <!-- svg loader -->
-    <div class="loading-container">
-        <div class="wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="25" viewBox="0 0 120 30" fill="#fff">
-                <circle cx="15" cy="15" r="11.8022">
-                    <animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15"
-                             calcMode="linear" repeatCount="indefinite"/>
-                    <animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1"
-                             calcMode="linear" repeatCount="indefinite"/>
-                </circle>
-                <circle cx="60" cy="15" r="12.1978" fill-opacity="0.3">
-                    <animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear"
-                             repeatCount="indefinite"/>
-                    <animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5"
-                             calcMode="linear" repeatCount="indefinite"/>
-                </circle>
-                <circle cx="105" cy="15" r="11.8022">
-                    <animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15"
-                             calcMode="linear" repeatCount="indefinite"/>
-                    <animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1"
-                             calcMode="linear" repeatCount="indefinite"/>
-                </circle>
-            </svg>
+
+    <!--Scale - Animated Intro Section | CodyHouse-->
+    <section class="cd-intro">
+        <div class="cd-intro-content scale">
+            <h1>Róbert <span class="uppercase" id="pixel-perfect">Matkulčík</span></h1>
+
+            <h2>web designer &amp; developer</h2>
+            <ul>
+                <!--TODO: id not class-->
+                <!--TODO: add CV download-->
+                <li class="hint--bottom" data-hint="GitHub">
+                    <a href="https://github.com/RobqFakulcik" class="github" target="_blank"></a>
+                </li>
+                <li class="hint--bottom" data-hint="BitBucket">
+                    <a href="https://bitbucket.org/xes240/" class="bucket" target="_blank"></a>
+                </li>
+                <li class="hint--bottom" data-hint="Twitter">
+                    <a href="https://twitter.com/Unafeny_Konyk" class="twitter" target="_blank"></a>
+                </li>
+                <li class="hint--bottom" data-hint="CSFD">
+                    <a href="http://www.csfd.cz/uzivatel/253064-3littlepigs/" class="csfd" target="_blank"></a>
+                </li>
+                <li class="hint--bottom" data-hint="ItNetwork">
+                    <a href="http://www.itnetwork.cz/portfolio/1600" class="itnetwork" target="_blank"></a>
+                </li>
+                <li class="hint--bottom" data-hint="E-mail">
+                    <a href="mailto:robert@matkulcik.eu" class="email" target="_blank"></a>
+
+                    <div id="element_to_pop_up">
+                        <h2 id="pop_up_email">robert@matkulcik.eu</h2>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <!--TODO: style to corner?-->
-        <div id="right-corner"><p>Code my brothers we are blessed by steel</p></div>
-    </div>
-
-    <h1>Róbert <span class="uppercase" id="pixel-perfect">Matkulčík</span></h1>
-
-    <h2>web designer &amp; developer</h2>
-    <ul>
-        <!--TODO: id not class-->
-        <!--TODO: add CV download-->
-        <li class="hint--bottom" data-hint="GitHub">
-            <a href="https://github.com/RobqFakulcik" class="github" target="_blank"></a>
-        </li>
-        <li class="hint--bottom" data-hint="BitBucket">
-            <a href="https://bitbucket.org/xes240/" class="bucket" target="_blank"></a>
-        </li>
-        <li class="hint--bottom" data-hint="Twitter">
-            <a href="https://twitter.com/Unafeny_Konyk" class="twitter" target="_blank"></a>
-        </li>
-        <li class="hint--bottom" data-hint="CSFD">
-            <a href="http://www.csfd.cz/uzivatel/253064-3littlepigs/" class="csfd" target="_blank"></a>
-        </li>
-        <li class="hint--bottom" data-hint="ItNetwork">
-            <a href="http://www.itnetwork.cz/portfolio/1600" class="itnetwork" target="_blank"></a>
-        </li>
-        <li class="hint--bottom" data-hint="E-mail">
-            <a href="mailto:robert@matkulcik.eu" class="email" target="_blank"></a>
-
-            <div id="element_to_pop_up">
-                <h2 id="pop_up_email">robert@matkulcik.eu</h2>
-            </div>
-        </li>
-    </ul>
+    </section>
     <!--TODO: JS ON CLCIK TO BUTTON O technologii-->
     <!--<section class="technology">-->
-        <!--<div class="container">-->
-            <!--<h2>Technológie</h2>-->
-            <!--<p>-->
-                <!--Pri vývoji aplikácii mi pomáhajú produkty od firmy&nbsp;<em>JetBrains</em>.-->
-                <!--Funkcionalitu webových aplikácií programujem v jazyku&nbsp;<em>PHP</em> a využívam pri tom-->
-                <!--&nbsp;<em>ZendFramework</em> či&nbsp;<em>Laravel</em>. Menšie projekty programujem v jazyku-->
-                <!--&nbsp;<em>Python</em> s použítím-->
-                <!--frameworku &nbsp;<em>Flask</em>.-->
-                <!--Pre účely vizuálneho charakteru aplikácií ponúkam technológie ako <em>Sass</em>,-->
-                <!--<em>JavaScript</em> a <em>SVG</em>. Spracované informácie ukladám do databázových systémov <em>PostgreSQL</em>,-->
-                <!--<em>MariaDB</em> a <em>SQLite</em>.-->
-            <!--</p>-->
-            <!--<p>-->
-                <!--Prácu na projektoch mi uľahčuje verzovací systém <em>GIT</em>, o úlohy sa stará &nbsp;<em>RedMine</em> a-->
-                <!--na jednoduchú a prehľadnú komunikáciu využívam &nbsp;<em>Slack</em>. Mnou vytvorené-->
-                <!--systémy a&nbsp;aplikácie monitoruje <em>Newrelic</em>.-->
-            <!--</p>-->
+    <!--<div class="container">-->
+    <!--<h2>Technológie</h2>-->
+    <!--<p>-->
+    <!--Pri vývoji aplikácii mi pomáhajú produkty od firmy&nbsp;<em>JetBrains</em>.-->
+    <!--Funkcionalitu webových aplikácií programujem v jazyku&nbsp;<em>PHP</em> a využívam pri tom-->
+    <!--&nbsp;<em>ZendFramework</em> či&nbsp;<em>Laravel</em>. Menšie projekty programujem v jazyku-->
+    <!--&nbsp;<em>Python</em> s použítím-->
+    <!--frameworku &nbsp;<em>Flask</em>.-->
+    <!--Pre účely vizuálneho charakteru aplikácií ponúkam technológie ako <em>Sass</em>,-->
+    <!--<em>JavaScript</em> a <em>SVG</em>. Spracované informácie ukladám do databázových systémov <em>PostgreSQL</em>,-->
+    <!--<em>MariaDB</em> a <em>SQLite</em>.-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--Prácu na projektoch mi uľahčuje verzovací systém <em>GIT</em>, o úlohy sa stará &nbsp;<em>RedMine</em> a-->
+    <!--na jednoduchú a prehľadnú komunikáciu využívam &nbsp;<em>Slack</em>. Mnou vytvorené-->
+    <!--systémy a&nbsp;aplikácie monitoruje <em>Newrelic</em>.-->
+    <!--</p>-->
 
-        <!--</div>-->
+    <!--</div>-->
     <!--</section>-->
 
 </main>

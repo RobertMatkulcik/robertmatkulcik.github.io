@@ -533,3 +533,68 @@ Kernings
 #pixel-perfect {
     -letter-kern: 5px -3px 0 0 0 0 0 0 0 ;
 }
+
+/* --------------------------------
+
+scale
+
+-------------------------------- */
+.scale.cd-intro-content * {
+    /* overwrite default style */
+    opacity: 1;
+}
+
+.scale.cd-intro-content {
+    /* overwrite default style */
+    background-color: transparent;
+    /* Force hardware acceleration */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation: cd-scale-in 0.6s 0.3s both;
+    -moz-animation: cd-scale-in 0.6s 0.3s both;
+    animation: cd-scale-in 0.6s 0.3s both;
+}
+
+@-webkit-keyframes cd-scale-in {
+    0% {    
+        opacity: 0;
+        -webkit-transform: scale(3);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+@-moz-keyframes cd-scale-in {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(3);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+}
+@keyframes cd-scale-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        -ms-transform: scale(3);
+        -o-transform: scale(3);
+        transform: scale(3);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}

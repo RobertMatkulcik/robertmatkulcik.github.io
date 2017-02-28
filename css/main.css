@@ -158,7 +158,7 @@ li a {
 li {
     display: inline-block;
     /*margin: 0 1.4em 1em 0.5em;*/
-    margin: 0 1.2em 0em 0.2em;
+    margin: 0 1.2em 1em 0.15em;
 }
 
 li.hint--bottom{
@@ -339,7 +339,7 @@ div.loading-container {
     }
 
     li {
-        margin: 0 1.5em 1em 0.3em;
+        margin: 0 1.3em 1em 0em;
 
     }
 }
@@ -350,7 +350,7 @@ div.loading-container {
     }
 
     li {
-        margin: 0 1.88em 1em 0;
+        margin: 0 1em 1em 0;
     }
 }
 
@@ -374,7 +374,7 @@ and (max-width: 520px) {
     }
 
     li {
-        margin: 0 1.9em 1em 0;
+        margin: 0 1em 1em 0;
     }
 
 }
@@ -389,7 +389,7 @@ and (max-width: 520px) {
     }
 
     li {
-        margin: 0 1.8em 1em 0;
+        margin: 0 0.9em 1em 0em;
     }
 }
 

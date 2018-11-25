@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da5354da-e038-4be0-bafe-89df7863aaf3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/08/de370f7c22fec4662f90850b55f3b2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/0a/f560c5f35524f67d50774eea9002a6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/0e/6545d2e538dbbbe4625451d480f9c7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/0e/e2eb13f9920d1444239efcf2439893.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/10/e9b7a4e83617b30ee1c33d76167921.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/14/ee4d6cbe449a235538a49e50587237.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/17/28ae9d4357aa85dbca251cc904e05e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/1a/72446cd62c12ff0804c076e9826cec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/1c/4a4182723fc3da1e35c49bdf922140.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/1c/4dc708bf1543832e696b3e4f6efbb6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/1f/516eff5ef69579f535c0ce2784ad62.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/23/fe0065118ec88f5a9c0460c33621dc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/2a/671277fd237b9a8d57d45e5cb75d01.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/2d/ec4dd9440160509759f3f93a4d7755.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/2f/b7c0367ba9665801ba6e7a4e195e8a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/32/4bbd7f8f5e4efc0819fb6e1ab3d1f6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/3a/08f85f105f378332a510cdc4b75b02.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/44/0a50f32021d63fe600e2a44e7a2833.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/45/e8b2ef839c0cb31d7e9a9cf34d8ff4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/47/ab58a6c31be6a0bcab11149e13ad2b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/4c/8ab99bd466d7efce73fb767504bac2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/52/0116520a3b2a1818db1014e8afa3e7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/5b/3bca806b40b796ee47d763cf31e3ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/5f/b4cf00e5d3dab75269bb822afbab67.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/6b/0a010bab9f5518ba0b3c1884f5f0aa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/71/ed6ed886d5fee9af342acfd8b8950e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/75/74d58d28eeca83e2919f8b24e843cc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/76/7c3c4f0292804347ecf7c4bff9ba1d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/81/7c456a88df8fcafef81c35f0d2cd2a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/82/ee8030da3ace2e6c23328e404f6c3c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/85/27db89a903339e30af648e8b14081b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/85/c96b338074cab5da0bb2a6343f4f5b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/89/ad5fdecd144a7c563dbe2a5298ae7d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/89/d74c3089666c5089fd52264bafa1b2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/8f/8fa039b55dbabe9c5ddba54d2d0c82.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/96/a28007d8df7ac4181709404d69759c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/99/28fe0a9a87263ddd6701d45c9f01a3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/99/301005c5132674cf5057d2984108a0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/a0/00d4c1e2144474f37e497175d3bad5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/a2/91dcaed2c07fdb23aaf7ce40107d93.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/a9/6a7cd1e062c15b70558d889d458f44.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b0/f1ed72d667dd6c988a089556f0cc15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b4/b62ee50e31277070259bd5d746cdcb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b6/8ff99a53eaec46e2f571478bd41df2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/c0/45b537f3f122e3547bf38307951331.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/c7/be67abfac4e2917a1a242372224301.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/c8/4aa291cb52c0b1ab5dae9238fd6546.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/cb/911f92d2f5414f048163b8c95d26e5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/cc/0b1b5386a159ca6279611d60664b6c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/cc/af81f52a3aabaa783211043c86653e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/ce/7451f60025825a426442486314500a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/d9/86cc5fd45a3a7fbbf95f5b1fbe3cb1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/dd/801010a46f7345428787b23f525dc1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/df/7d9aac05b3f24b7e188ac5b1c77b2a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e1/363a1e0e2982c13404f7c8306c64d3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e9/cc06fa76f3a94aa958f6c789f025a7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/f0/49270c4c1b4717c1ead1d91b6dc7d3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,18 +59,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="CNAME" value="2" />
-          <entry key="css" value="371" />
+          <entry key="css" value="411" />
           <entry key="gitignore" value="6" />
-          <entry key="html" value="607" />
-          <entry key="js" value="345" />
+          <entry key="html" value="644" />
+          <entry key="js" value="436" />
           <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="371" />
-          <entry key="HTML" value="607" />
-          <entry key="JavaScript" value="345" />
+          <entry key="CSS" value="411" />
+          <entry key="HTML" value="644" />
+          <entry key="JavaScript" value="436" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -155,26 +97,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="253">
+              <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="437">
+              <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -213,9 +155,9 @@
         <option value="&lt;80ee24eb-a8f2-4dfb-990f-06e8baf7961b&gt;/app.py" />
         <option value="&lt;80ee24eb-a8f2-4dfb-990f-06e8baf7961b&gt;/CNAME" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -311,18 +253,18 @@
       <workItem from="1542060450883" duration="1285000" />
       <workItem from="1542228190031" duration="658000" />
       <workItem from="1543143443332" duration="4050000" />
-      <workItem from="1543158181915" duration="2070000" />
+      <workItem from="1543158181915" duration="4175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39385000" />
+    <option name="totallyTimeSpent" value="41490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -454,13 +396,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py" />
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Postgresql_elephant.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -474,24 +409,31 @@
     <entry file="file://$PROJECT_DIR$/fonts/entypo/Entypo+/Entypo+ Social Extension/github.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="37" />
+        <state relative-caret-position="184">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="253">
+          <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="437">
+          <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>

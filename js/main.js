@@ -123,34 +123,18 @@ jQuery(document).ready(function () {
 
 
     document.querySelector(".left-corner").addEventListener("click", function () {
-        var url = "http://colormind.io/api/";
-        var data = {
-            model: "default"
+        Array.prototype.random = function () {
+            return this[Math.floor((Math.random()*this.length))];
         };
 
-        var http = new XMLHttpRequest();
-
-        http.onreadystatechange = function () {
-            if (http.readyState == 4 && http.status == 200) {
-                var palette = JSON.parse(http.responseText).result;
-                document.documentElement.style.setProperty('--color1', "rgb("+palette[4][0] + ","+ palette[4][1] +","+ palette[4][2]+")");
-                document.documentElement.style.setProperty('--color3', "rgb("+palette[0][0] + ","+ palette[0][1] +","+ palette[0][2]+")");
-                document.documentElement.style.setProperty('--color2', "rgb("+palette[2][0] + ","+ palette[2][1] +","+ palette[2][2]+")");
-
-                // --color1: rgb(50,53,64);
-                // --color2: rgb(211,84,78);
-
-                // --color1: #353B53;
-                // --color2: #6EA785;
-
-                // --color1: rgb(29,46,31);
-                // --color2: rgb(155,96,78);
-            }
-        };
-
-        http.open("POST", url, true);
-        http.send(JSON.stringify(data));
-
+        var color = [
+            25,
+            210,
+            260,
+            360
+        ];
+        console.log(color.random());
+        document.documentElement.style.setProperty('--hue', color.random());
     });
 
 

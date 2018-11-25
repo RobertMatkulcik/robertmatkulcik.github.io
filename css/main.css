@@ -27,10 +27,10 @@
   /*--link-color: #dee2e6;*/
   /*--link-color-hover: #fff;*/
 
+  --hue: 0;
   --color1: rgb(25,20,26);
   --color3: rgb(253,243,211);
-  --color2: rgb(154,32,12);
-
+  --color2: hsl(var(--hue), 70%, 45%);
   /*--color1: rgb(94,40,114);*/
   /*--color3: rgb(239,240,203);*/
   /*--color2: rgb(219,70,109);*/

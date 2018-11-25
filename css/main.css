@@ -827,6 +827,10 @@ Modal Window
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
+.img-contact{
+  width: 5em;
+}
+
 /* --------------------------------
 
 Email svg-modal styles
@@ -872,7 +876,6 @@ LEFT CORNER
   left: 0;
   transform: rotate(-90deg);
 }
-
 
 
 

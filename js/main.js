@@ -123,7 +123,7 @@ jQuery(document).ready(function () {
 
 
     document.querySelector(".left-corner").addEventListener("click", function () {
-        var url = "http://colormind.io/api/";
+        var url = "https://colormind.io/api/";
         var data = {
             model: "default"
         };

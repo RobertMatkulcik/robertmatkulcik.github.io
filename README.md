@@ -22,7 +22,7 @@ npm install
 
 👤 **Robert Matkulcik**
 
-* Twitter: [@UnafenyKonyk](https://twitter.com/UnafenyKonyk)
+* Twitter: [@UnafenyKonyk](https://twitter.com/Unafeny_Konyk)
 * Github: [@ https://github.com/RobertMatkulcik](https://github.com/ https://github.com/RobertMatkulcik)
 
 ## Show your support

@@ -10,7 +10,7 @@
 > My first portfolio. With a static blog about my master degree thesis.
 > Currently working on absolutely new portfolio.
 
-### 🏠 [Homepage](www.matkulcik.sk)
+### 🏠 [Homepage](https://www.matkulcik.sk)
 
 ## Install
 
@@ -23,7 +23,7 @@ npm install
 👤 **Robert Matkulcik**
 
 * Twitter: [@UnafenyKonyk](https://twitter.com/Unafeny_Konyk)
-* Github: [@ https://github.com/RobertMatkulcik](https://github.com/ https://github.com/RobertMatkulcik)
+* Github: [@github.com](https://github.com/RobertMatkulcik)
 
 ## Show your support
 
